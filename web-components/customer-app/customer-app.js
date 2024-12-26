@@ -1,4 +1,4 @@
-class CustomerApp extends HTMLElement {
+export default class CustomerApp extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `<div class="customer-info">
         <h2>Customer Info</h2>

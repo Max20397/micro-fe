@@ -1,4 +1,4 @@
-class CartApp extends HTMLElement{
+export default class CartApp extends HTMLElement{
 	constructor(){
 		super();
 		this.cart = [];

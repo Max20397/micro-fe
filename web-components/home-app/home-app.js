@@ -1,4 +1,4 @@
-class HomeApp extends HTMLElement {
+export default class HomeApp extends HTMLElement {
 	connectedCallback() {
 	  this.innerHTML = `
 		<div style="padding: 16px; border: 1px solid #ccc;">
